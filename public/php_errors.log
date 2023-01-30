@@ -1,0 +1,25 @@
+[30-Jan-2023 18:44:43 Europe/Paris] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: /usr/lib/php/20220829/pdo_pgsql (/usr/lib/php/20220829/pdo_pgsql: cannot open shared object file: No such file or directory), /usr/lib/php/20220829/pdo_pgsql.so (/usr/lib/php/20220829/pdo_pgsql.so: undefined symbol: pdo_parse_params)) in Unknown on line 0
+[30-Jan-2023 17:44:45 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[30-Jan-2023 17:44:45 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[30-Jan-2023 17:44:45 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[30-Jan-2023 17:44:59 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[30-Jan-2023 17:44:59 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[30-Jan-2023 17:44:59 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[30-Jan-2023 17:44:59 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[30-Jan-2023 17:44:59 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[30-Jan-2023 17:44:59 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[30-Jan-2023 17:45:17 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[30-Jan-2023 17:45:17 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[30-Jan-2023 17:45:17 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[30-Jan-2023 17:45:19 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[30-Jan-2023 17:45:19 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[30-Jan-2023 17:45:19 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[30-Jan-2023 17:45:24 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[30-Jan-2023 17:45:24 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[30-Jan-2023 17:45:24 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[30-Jan-2023 17:45:29 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[30-Jan-2023 17:45:29 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[30-Jan-2023 17:45:29 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[30-Jan-2023 17:45:36 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[30-Jan-2023 17:45:36 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[30-Jan-2023 17:45:36 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
