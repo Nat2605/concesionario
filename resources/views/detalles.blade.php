@@ -7,6 +7,10 @@
 </head>
 <body>
         <h1>Esta es la pagina de detalles del coche</h1>
+<?php 
+echo $coche->marca;
+echo $coche->modelo;
 
+?>
 </body>
 </html>

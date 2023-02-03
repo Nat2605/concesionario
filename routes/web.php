@@ -1,5 +1,6 @@
 <?php
 
+use App\Models\Coche;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,14 +15,17 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('Inicio');
+    $coches = Coche::all();
+    dump($coches);
+    return view('inicio');
 });
-Route::get('/Detalles', function () {
-    return view('Detalles');
+Route::get('/detalles/{id}', function ($id) {
+    $coche = Coche::find($id);
+    return view('detalles', ['coche' => $coche]);
 });
-Route::get('/Listado', function () {
-    return view('Listado');
+Route::get('/listado', function () {
+    return view('listado');
 });
-Route::get('/Solicitud', function () {
-    return view('Solicitud');
+Route::get('/solicitud', function () {
+    return view('solicitud');
 });
