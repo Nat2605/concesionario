@@ -1,12 +1,9 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-        <h1>Esta es la pagina de la solicitud de informacion</h1>
+@extends('vistas.layout')
+@section('contenido')
+<div class="carrousel">
+    {{-- @each('vistas.formulario', $coches, 'coches') --}}
+</div>
 
-</body>
-</html>
+
+@endsection
+             

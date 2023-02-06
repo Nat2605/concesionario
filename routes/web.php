@@ -16,15 +16,16 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     $coches = Coche::all();
-    dump($coches);
+    var_dump($coches);
     return view('inicio');
 });
-Route::get('/detalles/{id}', function ($id) {
-    $coche = Coche::find($id);
-    return view('detalles', ['coche' => $coche]);
-});
+Route::get('/detalles/{coche:modelo}', function (Coche $coche) {
+    return view('detalles', ['coches' => [$coche]]);
+})->whereAlpha('coches');
+
 Route::get('/listado', function () {
-    return view('listado');
+    $coches = Coche::all();
+    return view('listado', ['coches' => $coches]);
 });
 Route::get('/solicitud', function () {
     return view('solicitud');
