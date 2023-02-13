@@ -5,9 +5,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="{{asset('/css/estilos.css')}}">
-  <link rel="stylesheet" href="{{asset('/css/estilosListado.css')}}">
-  <link rel="stylesheet" href="{{asset('/css/estilosDetalles.css')}}">
-           <link rel="stylesheet" href="{{asset('/css/estilosSolicitud.css')}}">
 
   <title></title>
 </head>
@@ -18,18 +15,17 @@
       <div>
         <ul>
           <li>LOGO</li>
-          <li><a href="index.html">Inicio</a></li>
-          <li><a href="detalles.html">Detalles</a></li>
-          <li><a href="solicitud.html">Solicitud</a></li>
+          <li><a href="/">Inicio</a></li>
+          <li><a href="/solicitud">Solicitud</a></li>
+
+
         </ul>
       </div>
     </nav>
 
     <div class="carrousel">
-        @yield('cont')
+       
         @yield('contenido')
-        @yield('contenido2')
-          @yield('contenido')
     </div>
 
     <div class="footer">

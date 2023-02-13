@@ -1,7 +1,8 @@
 @extends('vistas.layout')
-@section('cont')
+@section('contenido')
 <div class="carrousel">
-    {{-- @each('vistas.in', $coches, 'coches') --}}
+        @include('vistas.in')
+
 </div>
 
 

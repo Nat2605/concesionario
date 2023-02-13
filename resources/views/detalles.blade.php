@@ -1,5 +1,7 @@
 @extends('vistas.layout')
-@section('contenido2')
+  <link rel="stylesheet" href="{{asset('/css/estilosDetalles.css')}}">
+
+@section('contenido')
 <div class="carrousel">
     @each('vistas.cartaDetalles', $coches, 'coches')
 </div>
