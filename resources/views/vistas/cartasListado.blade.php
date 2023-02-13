@@ -10,7 +10,7 @@
               <p class="card__text">Es baja en emisiones y ofrece múltiples opciones. Con cuatro sistemas de
                 propulsión<br>, diferentes incluyendo el híbrido y electrico para seguir innovando
               </p>
-              <a href="detalles.html"> <button class="btn btn--block card__btn">Detalles</button></a>
+              <a href="/detalles/{{$coches->id}}"> <button class="btn btn--block card__btn">Detalles</button></a>
             </div>
           </div>
         </li>

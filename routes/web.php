@@ -1,6 +1,8 @@
 <?php
 
+use App\Http\Controllers\CocheController;
 use App\Models\Coche;
+use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,18 +17,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    $coches = Coche::all();
-    var_dump($coches);
-    return view('inicio');
+    return view('inicio', ['coches']);
 });
-Route::get('/detalles/{coche:modelo}', function (Coche $coche) {
-    return view('detalles', ['coches' => [$coche]]);
-})->whereAlpha('coches');
+Route::get('/detalles/{id}', [CocheController::class, 'detalles'])->whereAlpha('coches');
 
-Route::get('/listado', function () {
-    $coches = Coche::all();
-    return view('listado', ['coches' => $coches]);
-});
+Route::get('/listado', [CocheController::class, 'filtrar']);
+
 Route::get('/solicitud', function () {
     return view('solicitud');
 });
