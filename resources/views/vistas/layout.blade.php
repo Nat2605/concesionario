@@ -17,8 +17,19 @@
           <li>LOGO</li>
           <li><a href="/">Inicio</a></li>
           <li><a href="/solicitud">Solicitud</a></li>
+          <li><a href="/mi_concesionario">Mi Concesionario</a></li>
+          <li><a href="/login">Logearse</a></li>
+          <li><a href="/cerrar_sesion">cerrar sesion</a></li>
 
-
+          
+          <li>@auth
+            <p style="color: white">Estoy logeado</p>
+          @endauth</li>
+            <li>
+              @guest
+                <p style="color: white">No estoy logeado</p>
+              @endguest
+            </li>
         </ul>
       </div>
     </nav>

@@ -13,10 +13,14 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::table('coches', function (Blueprint $table) {
+        Schema::create('coches', function (Blueprint $table) {
+            $table->id();
+            $table->string("modelo", 50);
+            $table->integer('velocidad_max');
+            $table->string('carburante', 50)->nullable(true);
             $table->string("descripcion", 255)->nullable(true);
-            $table->dropColumn('marca');
             $table->foreignId('marca_id')->nullable(true)->constrained();
+            $table->timestamps();
         });
     }
 
