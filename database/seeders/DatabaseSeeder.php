@@ -6,6 +6,7 @@ namespace Database\Seeders;
 
 use App\Models\Coche;
 use App\Models\Marca;
+use App\Models\User;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder

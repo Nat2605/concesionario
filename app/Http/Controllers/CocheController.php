@@ -2,11 +2,13 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Resources\CocheResource;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Cache;
 
 use App\Models\Coche;
 use App\Models\Marca;
+use League\CommonMark\Extension\CommonMark\Node\Inline\Code;
 
 class CocheController extends Controller
 {
@@ -31,4 +33,21 @@ class CocheController extends Controller
         $coches = $query->with('marca')->simplePaginate(5);
         return view('listado', ['coches' => $coches]);
     }
+
+    public function datosCoche()
+    {
+        return CocheResource::collection(Coche::latest()->paginate(10));
+    }
+
+    public function detallesCoche($id)
+    {
+        $coche = Coche::find($id);
+
+        if ($coche) {
+            return new CocheResource($coche);
+        } else {
+            return response()->json(['mensaje' => 'No encontrado'], 404);
+        }
+    }
 }
+// return CocheResource::collection(Coche::find($id));
